@@ -10,3 +10,4 @@ Each course folder contains individual project directories with all necessary co
 ## Contact
 Feel free to reach out if you have any questions or would like to discuss my work:
 - [Email me](mailto:taha.karbalaee@gmail.com): taha.karbalaee@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/taha-esmaeili-a456522a3/)
