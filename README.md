@@ -1,2 +1,2 @@
 # University
-Each semester in university, due to the different courses in which I have participated, I get different projects that should be implemented in code. You can find these projects and my code in this repository.
+This repository contains a collection of coding projects and assignments I completed as part of my Computer Science degree at Khaje Nasir Technical University (KNTU). The projects are organized by course and demonstrate my skills in various areas of programming and software development.
