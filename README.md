@@ -10,6 +10,7 @@ Each course folder contains individual project directories with all necessary co
 ## Contact
 Feel free to reach out if you have any questions or would like to discuss my work:
 [Email me](mailto:taha.karbalaee@gmail.com)
+[![Email Icon](/home/tahaes/Downloads/Gmail_Logo_512px.png)](mailto:taha.karbalaee@gmail.com.com)
 Email: taha.karbalaee@gmail.com
 LinkedIn: 
 GitHub: [Your GitHub Profile
