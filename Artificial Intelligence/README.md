@@ -12,7 +12,7 @@
 
 ### 3. Genetic Algorithm:
 - Description: Implementation of a genetic algorithm to approximate roots of polynomial equations.
-- Technologies Used: Python, Numpy
+- Technologies Used: Python
 
 ### Additional Informations
 You can find a file providing more information on each project in their directory.
