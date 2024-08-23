@@ -1,5 +1,6 @@
-# Data Structure and Algorithms analysis
+# Data Structure and Algorithms
 <b>Professor:</b> Dr. Hossein Jowhari
+
 <b>Date:</b> Fall 2023
 
 ## Projects
