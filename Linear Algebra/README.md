@@ -1,5 +1,6 @@
 # Linear Algebra
 <b>Professor:</b> Dr. Farzane Ramezani
+
 <b>Date:</b> Fall 2023
 
 ## Projects
