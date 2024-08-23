@@ -1,5 +1,6 @@
 # Artificial Intelligence
 <b>Instructor:</b> Omid Azarkasb
+
 <b>Date:</b> Spring 2024
 
 ## Projects
