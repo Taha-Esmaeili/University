@@ -12,7 +12,7 @@ This repository contains a collection of coding projects and assignments I compl
 - Principles of Operating Systems
 
 ## How to use
-
+ 
 Each course folder contains individual project directories with all necessary code files. Detailed instructions on how to set up and run each project can be found in the respective <b>'README.md'</b> files within each project directory.
 
 ## Contact
