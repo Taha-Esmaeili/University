@@ -1,0 +1,25 @@
+Mohammad Taha Karbalaee Esmaeili - 40121803          محمد طاها کربلای اسمعیلی - ۴۰۱۲۱۸۰۳
+program                       <PROGRAM_KW, ->
+test                          <IDENTIFIER, 0>
+;                             <SEMICOLON, ->
+integer                       <INTEGER_KW, ->
+x                             <IDENTIFIER, 1>
+:=                            <ASSIGN_OP, ->
+10                            <INTEGER_NUMBER, 2>
+;                             <SEMICOLON, ->
+real                          <REAL_KW, ->
+y                             <IDENTIFIER, 3>
+:=                            <ASSIGN_OP, ->
+3.14                          <REAL_NUMBER, 4>
+;                             <SEMICOLON, ->
+if                            <IF_KW, ->
+x                             <IDENTIFIER, 1>
+>                             <GT_OP, ->
+5                             <INTEGER_NUMBER, 5>
+then                          <THEN_KW, ->
+y                             <IDENTIFIER, 3>
+:=                            <ASSIGN_OP, ->
+y                             <IDENTIFIER, 3>
++                             <ADD_OP, ->
+x                             <IDENTIFIER, 1>
+;                             <SEMICOLON, ->

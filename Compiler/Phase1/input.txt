@@ -1,0 +1,19 @@
+program prg1;
+integer num, divisor, quotient;
+begin
+    num:=61;
+    divisor:=2;
+    quotient:=0;
+    if num=1 then
+        return false;
+    else if num=2 then
+        return true;
+    while divisor<=(num/2) do
+    begin
+        quotient:=num/divisor;
+        if divisor * quotient=num then
+            return false;
+        divisor:=divisor+1;
+    end
+    return true;
+end

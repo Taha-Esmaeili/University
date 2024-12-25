@@ -1,0 +1,4 @@
+program test;
+integer x := 10;
+real y := 3.14;
+if x > 5 then y := y + x;
