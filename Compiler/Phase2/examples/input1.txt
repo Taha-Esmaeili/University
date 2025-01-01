@@ -1,0 +1,4 @@
+program testProgram ;
+begin
+  x := 5 ;
+end

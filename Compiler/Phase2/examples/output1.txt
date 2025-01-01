@@ -1,0 +1,9 @@
+Mohammad Taha Karbalaee Esmaeili - 40121803          محمد طاها کربلای اسمعیلی - ۴۰۱۲۱۸۰۳
+5         decs -> ε
+2         decList -> decs
+12        funcList -> ε
+33        expr -> integerNumber
+18        stmt -> id := expr ;
+16        stmtList -> stmt
+15        block -> begin stmtList end
+1         start -> program id ; decList funcList block

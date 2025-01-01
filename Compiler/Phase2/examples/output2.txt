@@ -1,0 +1,68 @@
+Mohammad Taha Karbalaee Esmaeili - 40121803          محمد طاها کربلای اسمعیلی - ۴۰۱۲۱۸۰۳
+6         type -> integer
+9         varList -> id
+10        varList -> varList, id
+10        varList -> varList, id
+4         decs -> type varList ;
+2         decList -> decs
+12        funcList -> ε
+33        expr -> integerNumber
+18        stmt -> id := expr ;
+16        stmtList -> stmt
+33        expr -> integerNumber
+18        stmt -> id := expr ;
+17        stmtList -> stmtList stmt
+33        expr -> integerNumber
+18        stmt -> id := expr ;
+17        stmtList -> stmtList stmt
+38        expr -> id
+45        relop -> =
+33        expr -> integerNumber
+31        expr -> expr relop expr
+36        expr -> false
+23        stmt -> return expr ;
+38        expr -> id
+45        relop -> =
+33        expr -> integerNumber
+31        expr -> expr relop expr
+35        expr -> true
+23        stmt -> return expr ;
+19        stmt -> if expr then stmt
+20        stmt -> if expr then stmt else stmt
+17        stmtList -> stmtList stmt
+38        expr -> id
+44        relop -> <=
+38        expr -> id
+33        expr -> integerNumber
+28        expr -> expr / expr
+32        expr -> ( expr )
+31        expr -> expr relop expr
+38        expr -> id
+38        expr -> id
+28        expr -> expr / expr
+18        stmt -> id := expr ;
+16        stmtList -> stmt
+38        expr -> id
+38        expr -> id
+45        relop -> =
+38        expr -> id
+31        expr -> expr relop expr
+27        expr -> expr * expr
+36        expr -> false
+23        stmt -> return expr ;
+19        stmt -> if expr then stmt
+17        stmtList -> stmtList stmt
+38        expr -> id
+33        expr -> integerNumber
+29        expr -> expr + expr
+18        stmt -> id := expr ;
+17        stmtList -> stmtList stmt
+15        block -> begin stmtList end
+24        stmt -> block
+21        stmt -> while expr do stmt
+17        stmtList -> stmtList stmt
+35        expr -> true
+23        stmt -> return expr ;
+17        stmtList -> stmtList stmt
+15        block -> begin stmtList end
+1         start -> program id ; decList funcList block

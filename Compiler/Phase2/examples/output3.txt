@@ -1,0 +1,62 @@
+Mohammad Taha Karbalaee Esmaeili - 40121803          محمد طاها کربلای اسمعیلی - ۴۰۱۲۱۸۰۳
+5         decs -> ε
+2         decList -> decs
+12        funcList -> ε
+6         type -> integer
+9         varList -> id
+4         decs -> type varList ;
+6         type -> integer
+9         varList -> id
+4         decs -> type varList ;
+2         decList -> decs
+3         decList -> decs decList
+14        parameters -> ( decList )
+7         type -> real
+6         type -> integer
+9         varList -> id
+10        varList -> varList, id
+4         decs -> type varList ;
+7         type -> real
+9         varList -> id
+4         decs -> type varList ;
+2         decList -> decs
+3         decList -> decs decList
+33        expr -> integerNumber
+18        stmt -> id := expr ;
+16        stmtList -> stmt
+33        expr -> integerNumber
+18        stmt -> id := expr ;
+17        stmtList -> stmtList stmt
+38        expr -> id
+38        expr -> id
+38        expr -> id
+38        expr -> id
+29        expr -> expr + expr
+18        stmt -> id := expr ;
+22        stmt -> for id := expr to expr do stmt
+17        stmtList -> stmtList stmt
+38        expr -> id
+38        expr -> id
+38        expr -> id
+30        expr -> expr - expr
+33        expr -> integerNumber
+29        expr -> expr + expr
+32        expr -> ( expr )
+28        expr -> expr / expr
+18        stmt -> id := expr ;
+17        stmtList -> stmtList stmt
+38        expr -> id
+23        stmt -> return expr ;
+17        stmtList -> stmtList stmt
+15        block -> begin stmtList end
+13        funcDec -> function id parameters : type decList block
+11        funcList -> funcList funcDec
+33        expr -> integerNumber
+39        actualparamlist -> expr
+33        expr -> integerNumber
+40        actualparamlist -> actualparamlist, expr
+37        expr -> id ( actualparamlist )
+18        stmt -> id := expr ;
+16        stmtList -> stmt
+15        block -> begin stmtList end
+1         start -> program id ; decList funcList block
