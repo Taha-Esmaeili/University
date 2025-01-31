@@ -1,0 +1,49 @@
+Mohammad Taha Karbalaee Esmaeili - 40121803          محمد طاها کربلای اسمعیلی - ۴۰۱۲۱۸۰۳
+t1 = 61
+num = t1
+t2 = 2
+divisor = t2
+t3 = 0
+quotient = t3
+t4 = 1
+t5 = num = t4
+if t5 goto L1
+goto L2
+L1:
+t6 = False
+return t6
+goto L3
+L2:
+t7 = 2
+t8 = num = t7
+if t8 goto L4
+goto L5
+L4:
+t9 = True
+return t9
+L5:
+L3:
+L6:
+t10 = 2
+t11 = num / t10
+t12 = divisor <= t11
+if t12 goto L7
+goto L8
+L7:
+t13 = num / divisor
+quotient = t13
+t14 = divisor * quotient
+t15 = t14 = num
+if t15 goto L9
+goto L10
+L9:
+t16 = False
+return t16
+L10:
+t17 = 1
+t18 = divisor + t17
+divisor = t18
+goto L6
+L8:
+t19 = True
+return t19

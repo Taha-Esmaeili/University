@@ -16,5 +16,11 @@
 - Description: Implementing a parser in python to analyze the structure of a program by applying production rules defined for the grammar.
 - Technologies Used: Python, PLY
 
+### 3. Code generator:
+
+- Description: Implementing a TAC generator to build intermediate code representation of a given valid instance of grammar \(G\).
+- Technologies Used: Python
+
 ### Additional Informations
+
 You can find a file providing more information on each project in their directory.
